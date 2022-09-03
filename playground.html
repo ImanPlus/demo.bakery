@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bakery | Selling all kinds of bread" />
+
+    <!-- open graph -->
+    <meta property="og:title" content="Bakery" />
+    <meta
+      property="og:description"
+      content="Buy a variety of local and French bread"
+    />
+    <meta property="og:type" content="Website" />
+
+    <!-- title -->
+    <title>The Bakery</title>
+
+    <!-- link | Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600;700&family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- link | Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .pos--relative {
+        position: relative;
+      }
+
+      .pos--absolute {
+        position: absolute;
+      }
+
+      .img {
+        width: 100%;
+        background-size: cover;
+        opacity: 0.2;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: darkslategray;
+        height: 33vw;
+        padding: 1rem;
+        width: 33vw;
+      }
+
+      .box {
+        border: 1px solid black;
+        background: white;
+        width: 40%;
+        box-shadow: 0 0 20px -2px #d3cdcd;
+      }
+
+      .box-content {
+        text-align: center;
+        font-weight: bold;
+        top: 0;
+        left: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box pos--relative">
+        <img class="img" src="images/time_box.jpg" alt="" />
+        <div class="box-content pos--absolute">
+          <p class="box--title">ready in</p>
+          <p class="box--time">40</p>
+          <p class="box--unit">mins</p>
+        </div>
+      </div>
+    </div>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/c3fffaa21e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

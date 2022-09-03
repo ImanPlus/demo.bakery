@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bakery | Selling all kinds of bread" />
+
+    <!-- open graph -->
+    <meta property="og:title" content="Bakery" />
+    <meta
+      property="og:description"
+      content="Buy a variety of local and French bread"
+    />
+    <meta property="og:type" content="Website" />
+
+    <!-- title -->
+    <title>The Bakery</title>
+
+    <!-- link | Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600;700&family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- link | Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header - Navbar -->
+    <header>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="#">Gustoso</a>
+        <svg class="icon icon--white nav__toggler">
+          <use href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item">
+            <a href="#">Welcome<span class="between__nav">~</span></a>
+          </li>
+          <li class="nav__item">
+            <a href="#">Menu<span class="between__nav">~</span></a>
+          </li>
+          <li class="nav__item">
+            <a href="#">reservations<span class="between__nav">~</span></a>
+          </li>
+          <li class="nav__item">
+            <a href="#">News<span class="between__nav">~</span></a>
+          </li>
+          <li class="nav__item">
+            <a href="#">Contact</a>
+          </li>
+          <li class="nav__item nav__social">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- block-Hero -->
+    <section class="hero">
+      <div class="hero__content">
+        <h1>Pastry with love</h1>
+        <div class="tag__line">
+          <p>
+            We’re bringing you fresh ingredients<br />every day in ways you
+            can’t resist.
+          </p>
+        </div>
+        <a class="btn btn--primary" href="#">Our menu</a>
+      </div>
+    </section>
+
+    <!-- Art-block -->
+    <div class="container art__block">
+      <article class="grid grid--1×2">
+        <div class="art__content">
+          <div class="art__heading">
+            <h3>Art of cakes</h3>
+            <p>we create delicious memories</p>
+          </div>
+
+          <p class="art__body">
+            Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
+            Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+            Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper
+            libero, sit amet adipiscing sem neque sed.
+          </p>
+          <h4 class="art__heading">Chef Cook</h4>
+          <div class="art__name-person">
+            <span>Benito</span>
+            <picture>
+              <source type="image/webp" srcset="images/art-profile.webp" />
+              <source type="image/png" srcset="images/art-profile.png" />
+              <img
+                class="art__profile_img"
+                src="images/art-profile.png"
+                alt="Profile of a chef"
+              />
+            </picture>
+            <span>Gaspare</span>
+          </div>
+          <blockquote class="quote">
+            <p class="quote__text">Unique creations for unique occasions.</p>
+          </blockquote>
+        </div>
+
+        <div class="art__gallery grid art__grid--3×3">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                images/img-top-left_resize_w167.webp     167w,
+                images/img-top-left_resize_@2x_w296.webp 296w
+              "
+              sizes="100rem"
+            />
+            <source
+              type="image/jpg"
+              srcset="
+                images/img-top-left_resize_w167.jpg     167w,
+                images/img-top-left_resize_@2x_w296.jpg 296w
+              "
+              sizes="100rem"
+            />
+
+            <img
+              class="art__image art__grid-cell"
+              src="images/img-top-left_resize_@2x_w296.jpg"
+              alt="Some flour"
+            />
+          </picture>
+
+          <div class="art__grid-cell"></div>
+
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                images/img-top-right_resize_w167.webp     167w,
+                images/img-top-right_resize_@2x_w296.webp 296w
+              "
+              sizes="100rem"
+            />
+            <source
+              type="image/jpg"
+              srcset="
+                images/img-top-right_resize_w167.jpg     167w,
+                images/img-top-right_resize_@2x_w296.jpg 296w
+              "
+              sizes="100rem"
+            />
+
+            <img
+              class="art__image art__grid-cell"
+              src="images/img-top-right_resize_@2x_w296.jpg"
+              alt="Some flour, bread, wheat and an egg"
+            />
+          </picture>
+
+          <div class="art__grid-cell"></div>
+
+          <div class="art__grid-cell">
+            <picture>
+              <source type="image/webp" srcset="images/Circle-wave.webp" />
+              <source type="image/jpeg" srcset="images/Circle-wave.jpeg" />
+              <img
+                class="icon--art"
+                src="images/Circle-wave.jpeg"
+                alt="Wavy edges circle"
+              />
+            </picture>
+            <p class="art__inside-text">TASTES SO GOOD!</p>
+          </div>
+
+          <div class="art__grid-cell"></div>
+
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                images/img-bottom-left_resize_w167.webp     167w,
+                images/img-bottom-left_resize_@2x_w296.webp 296w
+              "
+              sizes="100rem"
+            />
+            <source
+              type="image/jpg"
+              srcset="
+                images/img-bottom-left_resize_w167.jpg     167w,
+                images/img-bottom-left_resize_@2x_w296.jpg 296w
+              "
+              sizes="100rem"
+            />
+
+            <img
+              class="art__image art__grid-cell"
+              src="images/img-bottom-left_resize_@2x_w296.jpg"
+              alt="a slice cake"
+            />
+          </picture>
+
+          <div class="art__grid-cell"></div>
+
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                images/img-bottom-right_resize_w167.webp     167w,
+                images/img-bottom-right_resize_@2x_w296.webp 296w
+              "
+              sizes="100rem"
+            />
+            <source
+              type="image/jpg"
+              srcset="
+                images/img-bottom-right_resize_w167.jpg     167w,
+                images/img-bottom-right_resize_@2x_w296.jpg 296w
+              "
+              sizes="100rem"
+            />
+
+            <img
+              class="art__image art__grid-cell"
+              src="images/img-bottom-right_resize_@2x_w296.jpg"
+              alt="A few slices of cake and some strawberries"
+            />
+          </picture>
+        </div>
+      </article>
+    </div>
+
+    <!-- Favorite block -->
+    <div class="favorite-block container">
+      <div class="container-favorite">
+        <!-- Picture part -->
+        <div class="grid container_star-img">
+          <picture>
+            <source type="image/webp" srcset="images/Pancake.webp" />
+            <source type="image/webp" srcset="images/Pancake.jpg" />
+            <img
+              class="favorite__img"
+              src="images/Pancake.jpg"
+              alt="A plate of pancakes"
+            />
+          </picture>
+          <!-- Stars on picture -->
+          <div class="favorite-star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+
+        <!-- Content part -->
+        <section class="favorite__content">
+          <div class="post__content">
+            <h1>Tasty pancakes</h1>
+            <h3>season favorite</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum
+              repellat ratione impedit autem, nostrum dolorum at. Repellat
+              doloribus totam veniam, blanditiis beatae animi!
+            </p>
+          </div>
+
+          <!-- Time box -->
+          <div class="time__box">
+            <img class="bg__box" src="images/time_box.jpg" alt="Farm" />
+            <div class="box__content">
+              <p class="box--title">ready in</p>
+              <p class="box--time">40</p>
+              <p class="box--unit">mins</p>
+            </div>
+          </div>
+
+          <!-- Background content -->
+          <picture>
+            <source type="image/webp" srcset="images/Windmills.webp" />
+            <source type="image/jpg" srcset="images/Windmills.jpg" />
+            <img
+              class="favorite__img-back"
+              src="images/Windmills.jpg"
+              alt="Windmills"
+            />
+          </picture>
+        </section>
+      </div>
+    </div>
+
+    <!-- Price list for breakfast -->
+    <div class="prices-list container">
+      <div class="grid grid--1×2">
+        <!-- Breakfast content -->
+        <section class="price-list__content">
+          <h1>Breakfast</h1>
+          <p class="h1-subtitle--primary">7am breakfast? we're open!</p>
+
+          <h4>Full breakfast</h4>
+          <p class="h4-subtitle--secondary">
+            Duis ut tortor, et risus, vulputate pretium
+          </p>
+          <p class="h4-subtitle__price">$12.49</p>
+
+          <h4>Toast & Jam</h4>
+          <p class="h4-subtitle--secondary">Suspendisse, tempus, nterdum</p>
+          <p class="h4-subtitle__price">$4.90</p>
+
+          <h4>Muffins</h4>
+          <p class="h4-subtitle--secondary">Fusce eget dui sodales est</p>
+          <p class="h4-subtitle__price">$3.95</p>
+        </section>
+
+        <!-- Breakfast card -->
+        <div class="breakfast-card">
+          <!-- First-level -->
+          <div class="cards first-level">
+            <div class="panel">
+              <!-- Seconde-level -->
+              <div class="cards second-level">
+                <div class="panel">
+                  <!-- Third-level -->
+                  <div class="cards third-level">
+                    <div class="panel">
+                      <div class="card__container">
+                        <div class="card__top grid">
+                          <p>EST.</p>
+                          <p>1893</p>
+                          <div class="line__circle-container grid">
+                            <p class="line">_____________</p>
+                            <img class="icon" src="images/donat.svg" alt="" />
+                            <p class="line">_____________</p>
+                          </div>
+                        </div>
+                        <div class="card__content">
+                          <h1>Your morning Escape with Flair</h1>
+                          <p>
+                            Donec vitae sapien ut libero venenatis faucibus.
+                            Nullam quis ante. Etiam sit amet orci eget eros
+                            faucibus tincidunt. Duis leo.
+                          </p>
+                          <a class="btn btn--secondary" href="#">READ</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sandwich-block -->
+    <div class="list-sandwich container grid grid--1×2">
+      <!-- Side list -->
+      <section class="side-list">
+        <div class="box-sandwich">
+          <img src="images/Wheat.jpg" alt="Some wheat" />
+          <h2>Class aptent</h2>
+          <p>Quot alienum persecuti ut eam, nam ad atqui primis nusquam.</p>
+        </div>
+        <div class="box-sandwich">
+          <img src="images/eggs.jpg" alt="Some wheat" />
+          <h2>Nulla eget</h2>
+          <p>Nullam dictum felis eu pede mollis pretium Integer tincidunt.</p>
+        </div>
+        <div class="box-sandwich">
+          <img src="images/Cheese.jpg" alt="Some wheat" />
+          <h2>Sed nibh purus</h2>
+          <p>Aenean eleifend tellus leo ligula, porttitor eu, consequat vi</p>
+        </div>
+      </section>
+
+      <!-- Sandwich content -->
+      <section class="list-sandwich__content">
+        <div class="content-top">
+          <img src="images/Windmills.png" alt="" class="img-top" />
+          <h1>The Jibarito sandwich</h1>
+          <h3>the best sandwich you’ve ever tasted!</h3>
+        </div>
+
+        <!-- Info food -->
+        <div class="food-body-full centered">
+          <div class="container-food pos--relative food__bg-img">
+            <div class="right-childs pos--absolute grid">
+              <div class="food-time pri-time">
+                <p class="box--title">prep</p>
+                <p class="box--time">15</p>
+                <p class="box--unit">mins</p>
+              </div>
+
+              <div class="food-time pri-time">
+                <p class="box--title">cook</p>
+                <p class="box--time">35</p>
+                <p class="box--unit">mins</p>
+              </div>
+
+              <div class="food-time pos--relative">
+                <img
+                  class="img-time pos--absolute"
+                  src="images/time_box.jpg"
+                  alt="Farm"
+                />
+                <p class="box--title">ready in</p>
+                <p class="box--time">40</p>
+                <p class="box--unit">mins</p>
+              </div>
+            </div>
+            <a class="btn btn--ascend outside-position" href="#">FULL RECIPE</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container">
+      <div class="footer__list">
+        <a href="#">our menu</a>
+        <span class="between__nav">~</span>
+        <a href="#">gallery</a>
+        <span class="between__nav">~</span>
+        <a href="#">culture</a>
+      </div>
+
+      <div class="nav__brand">
+        <a href="#">Gustoso</a>
+      </div>
+
+      <div class="footer__list">
+        <a href="#">events</a>
+        <span class="between__nav">~</span>
+        <a href="#">catering</a>
+        <span class="between__nav">~</span>
+        <a href="#">visit us</a>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/c3fffaa21e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
