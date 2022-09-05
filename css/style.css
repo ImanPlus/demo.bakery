@@ -728,7 +728,7 @@ header {
   top: 41%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: fit-content;
+  width: max-content;
 }
 
 .bg__box {
@@ -1012,7 +1012,6 @@ p {
 }
 
 .food-body-full {
-  height: 100vh;
   margin: 0;
 }
 
